@@ -17,15 +17,9 @@ declare(strict_types=1);
 
 namespace Pimcore\Bundle\BundleGeneratorBundle;
 
-use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
-use Pimcore\Extension\Bundle\Traits\PackageVersionTrait;
+use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class PimcoreBundleGeneratorBundle extends AbstractPimcoreBundle
+class PimcoreBundleGeneratorBundle extends Bundle
 {
-    use PackageVersionTrait;
 
-    protected function getComposerPackageName(): string
-    {
-        return 'pimcore/bundle-generator';
-    }
 }
