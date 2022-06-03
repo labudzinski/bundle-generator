@@ -1,5 +1,5 @@
 {
-  "name": "pimcore/bundle-generator",
+  "name": "effiana/bundle-generator",
   "license": "GPL-3.0+",
   "type": "pimcore-bundle",
   "description": "Pimcore Bundle Generator",
