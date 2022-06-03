@@ -11,9 +11,6 @@
       "Pimcore\\Bundle\\BundleGeneratorBundle\\": "src/"
     }
   },
-  "require": {
-    "pimcore/pimcore": "^10.0"
-  },
   "extra": {
     "pimcore": {
       "bundles": [
